@@ -45,7 +45,7 @@ create table order_products(
 insert into countries values ('112','KSA','Dates');
 insert into users values ('333','Sarah','test@test.com','F','15011999','2022-09-22','112');
 insert into orders values ('456','333','start','2022-03-12');
-insert into product values ('009','Jam','20','valid','2021-01-27');
+insert into product values ('009','Jam','20','valid',default);
 insert into order_products values ('456','009','100');
 
 UPDATE countries set continent_name = 'Klija' where code = '112';
